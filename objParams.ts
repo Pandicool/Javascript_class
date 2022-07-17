@@ -1,13 +1,7 @@
-import type { Properties }  from './types'
-function walk(props: Properties){
-    console.log(props)
+function walk({ distance="", speed="", time="30mins"}:{ distance?: string; speed?: string; time?: string}) {
+    console.log(time)
 }
 
-// walk({distance:"30km",speed:"60km/hr",time:"30mins"})
-export {};
+export { };
 
-let value : Properties {
-    distance = "",
-    speed = ""
-}
-walk("")
+walk({})
