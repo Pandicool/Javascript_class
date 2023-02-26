@@ -1,0 +1,14 @@
+<%-include('header')-%>
+    <div class='form-group'>
+        <form class='form-inline' method='post' , action='/login'>
+            <h2>Login</h2><br>
+            <label for='username'>Username: </label>
+            <input type='text' id='userName' name='username'><br>
+            <label for='password '>Password: </label>
+            <input type='text' id='password' name='password'><br>
+            <input type='submit' value='Login' class='btn btn-primary'>
+        </form>
+        <p>Don' t have account create new <a href='./signup '>Sign up</a>
+        </p>
+    </div>
+    <%-include('footer')-%>

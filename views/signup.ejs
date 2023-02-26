@@ -1,0 +1,20 @@
+<%-include('header')-%>
+    <div class="container">
+        <h2>Signup</h2><br>
+        <form id='signup' method='post' action='/signup' class="form-group">
+            <label for='firstname'>First Name:</label>
+            <input name='firstname' id='firstName' type='text'><br>
+            <label for='lastname'>Last Name:</label>
+            <input name='lastname' id='lastname' type='text'><br>
+            <label for='emailAddress'>Email Address:</label>
+            <input name='email' id='emailAddress' type='email'><br>
+            <label for='newPassword'>Create Password:</label>
+            <input name='newPassword' id='newPassword' type='password'><br>
+            <label for='confirmPassword'>Confirm Password:</label>
+            <input name='confirmPassword' id='confirmPassword' type='password'><br>
+            <input name='signupButton' id='signupButton' type='submit' value='Sign up' class='btn btn-primary'><br>
+        </form>
+        <p>I already registered <a href='./'>Login</a></p>
+    </div>
+
+    <%-include('footer')-%>
